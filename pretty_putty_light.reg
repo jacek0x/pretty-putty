@@ -1,0 +1,68 @@
+Windows Registry Editor Version 5.00
+; ------------------------------------------------------------------------------
+; JacK TrocinskI                 Pretty Putty           github.com/JacKTrocinskI
+;             Make PuTTY pretty and apply modern PuTTY settings.
+; ------------------------------------------------------------------------------
+
+; Replace "FOO%20BAR" with the PuTTY session name you would like to modify.
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\FOO%20BAR]
+
+; Color options
+"ANSIColour"=dword:00000001
+"Xterm256Colour"=dword:00000001
+"BoldAsColour"=dword:00000000
+"TryPalette"=dword:00000000
+"UseSystemColours"=dword:00000000
+
+; Solarized light color scheme
+"Colour0"="101,123,131"
+"Colour1"="88,110,117"
+"Colour2"="253,246,227"
+"Colour3"="238,232,213"
+"Colour4"="238,232,213"
+"Colour5"="101,123,131"
+"Colour6"="7,54,66"
+"Colour7"="0,43,54"
+"Colour8"="220,50,47"
+"Colour9"="203,75,22"
+"Colour10"="133,153,0"
+"Colour11"="88,110,117"
+"Colour12"="181,137,0"
+"Colour13"="101,123,131"
+"Colour14"="38,139,210"
+"Colour15"="131,148,150"
+"Colour16"="211,54,130"
+"Colour17"="108,113,196"
+"Colour18"="42,161,152"
+"Colour19"="147,161,161"
+"Colour20"="238,232,213"
+"Colour21"="253,246,227"
+
+; 256 color support
+"TerminalType"="putty-256color"
+
+; UTF-8 character support
+"LineCodePage"="UTF-8"
+"UTF8Override"=dword:00000001
+
+; Consolas 12pt ClearType font
+"Font"="Consolas"
+"FontHeight"=dword:0000000c
+"FontQuality"=dword:00000003
+
+; Linux style copy-and-pasting (middle click to paste)
+"MouseIsXterm"=dword:00000001
+
+; Scrollback buffer set to 2000 lines
+"ScrollbackLines"=dword:000007d0
+
+; Seconds between keepalives set to 59
+"PingInterval"=dword:00000000
+"PingIntervalSecs"=dword:0000003b
+
+; Mouse pointer hides while typing
+"HideMousePtr"=dword:00000001
+
+; Initial window size set to 80x40
+"TermHeight"=dword:00000028
+"TermWidth"=dword:00000050
