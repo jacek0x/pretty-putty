@@ -14,7 +14,7 @@ Windows Registry Editor Version 5.00
 "TryPalette"=dword:00000000
 "UseSystemColours"=dword:00000000
 
-; Solarized light color scheme
+; Solarized dark color scheme
 "Colour0"="131,148,150"
 "Colour1"="147,161,161"
 "Colour2"="0,43,54"
