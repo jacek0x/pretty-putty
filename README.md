@@ -11,10 +11,10 @@ Make PuTTY pretty and apply modern PuTTY settings.
 
 ## Screenshots
 
-![Solarized Light Color Scheme](screenshot_light.png)
+![Solarized Light Color Scheme](screenshot_light.PNG)
 *Light color scheme*
 
-![Solarized Dark Color Scheme](screenshot_dark.png)
+![Solarized Dark Color Scheme](screenshot_dark.PNG)
 *Dark color scheme*
 
 ## Features
