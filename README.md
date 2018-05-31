@@ -29,5 +29,7 @@ Make PuTTY pretty and apply modern PuTTY settings.
 * Initial window size set to 80x40
 
 ## Thanks
-* to Ethan Schoonover and everybody that contributed to [solarized PuTTY](https://github.com/altercation/solarized/tree/master/putty-colors-solarized).
-* to Jeff Blaine and everybody that contributed to [modern PuTTY defaults](https://github.com/jblaine/solarized-and-modern-putty).
+* to Ethan Schoonover and everybody that contributed to [solarized PuTTY]
+(https://github.com/altercation/solarized/tree/master/putty-colors-solarized).
+* to Jeff Blaine and everybody that contributed to [modern PuTTY defaults]
+(https://github.com/jblaine/solarized-and-modern-putty).
