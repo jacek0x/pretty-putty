@@ -4,7 +4,8 @@ Windows Registry Editor Version 5.00
 ;             Make PuTTY pretty and apply modern PuTTY settings.
 ; ------------------------------------------------------------------------------
 
-[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\SESSION_NAME]
+; Replace "FOO%20BAR" with the PuTTY session name you would like to modify.
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\FOO%20BAR]
 
 ; Color options
 "ANSIColour"=dword:00000001
