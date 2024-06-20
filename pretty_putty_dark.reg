@@ -49,6 +49,8 @@ Windows Registry Editor Version 5.00
 "Font"="Consolas"
 "FontHeight"=dword:0000000c
 "FontQuality"=dword:00000003
+"FontCharSet"=dword:00000000
+"FontIsBold"=dword:00000000
 
 ; Linux style copy-and-pasting (middle click to paste)
 "MouseIsXterm"=dword:00000001
